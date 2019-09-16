@@ -1,0 +1,74 @@
+.navigation {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #ffffff;
+  background: #ffffff;
+  border-bottom: 2px solid #cccccc;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.navLink {
+  float: right;
+  margin-top: 25px;
+}
+
+.navLink a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+}
+
+#logo {
+  float: left;
+  width: 250px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: #4a5;
+}
+
+.information{
+  clear: both;
+  padding: 10px;
+}
+
+.animals{
+  float: right;
+  background-color: grey;
+  width: 30%;
+  margin: 2%;
+  padding: 2%;
+}
+
+.graph{
+  height: 200px;
+}
+
+#graph{
+  float: left;
+  padding: 2%
+}
+
+.footer{
+  clear: both;
+  background-color: grey;
+  height: 50px;
+}
